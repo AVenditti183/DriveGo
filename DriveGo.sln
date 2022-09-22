@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveGo.Zeus.Contract", "src\DriveGo.Zeus.Contract\DriveGo.Zeus.Contract.csproj", "{1951A3D9-6DE9-49C7-AA0C-1F3E255B5011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveGo.Zeus", "src\DriveGo.Zeus\DriveGo.Zeus.csproj", "{AB34BA5C-6472-48BA-8605-2890ADBEE053}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastractures", "Infrastractures", "{A03F0F4B-5CDD-4B72-A855-6EAC51C604AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveGo.Infrastructure", "src\DriveGo.Infrastructure\DriveGo.Infrastructure.csproj", "{766980CD-9C20-4718-96CF-7FFAA8AD4DC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zeus", "Zeus", "{81CD6869-6E54-42FD-8216-F6BFC4355525}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1951A3D9-6DE9-49C7-AA0C-1F3E255B5011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1951A3D9-6DE9-49C7-AA0C-1F3E255B5011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1951A3D9-6DE9-49C7-AA0C-1F3E255B5011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1951A3D9-6DE9-49C7-AA0C-1F3E255B5011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB34BA5C-6472-48BA-8605-2890ADBEE053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB34BA5C-6472-48BA-8605-2890ADBEE053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB34BA5C-6472-48BA-8605-2890ADBEE053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB34BA5C-6472-48BA-8605-2890ADBEE053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766980CD-9C20-4718-96CF-7FFAA8AD4DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766980CD-9C20-4718-96CF-7FFAA8AD4DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766980CD-9C20-4718-96CF-7FFAA8AD4DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766980CD-9C20-4718-96CF-7FFAA8AD4DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1951A3D9-6DE9-49C7-AA0C-1F3E255B5011} = {81CD6869-6E54-42FD-8216-F6BFC4355525}
+		{AB34BA5C-6472-48BA-8605-2890ADBEE053} = {81CD6869-6E54-42FD-8216-F6BFC4355525}
+		{766980CD-9C20-4718-96CF-7FFAA8AD4DC9} = {A03F0F4B-5CDD-4B72-A855-6EAC51C604AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D5635EE-7334-4934-8B9D-9E55BB8943FD}
+	EndGlobalSection
+EndGlobal
